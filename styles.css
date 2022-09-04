@@ -1,0 +1,80 @@
+/* CSS Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+  
+  img {
+    height: 100%;
+  }
+
+  /* Nav Bar*/
+  .main-nav {
+      display: flex;
+      justify-content: space-between;
+      height: 15vh;
+      padding-top: 2vh;
+  }
+  
+  .links {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      list-style: none;
+      color: #fff;
+      font-size: 1.1rem;
+  }
+
+  .links>li{
+      margin-right: 30px;
+      cursor: pointer;
+  }
+
+  .links > li:last-child{
+      margin-right: 0;
+  }
+
+  /* Hero Container */
+
+  .hero {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("images/headerbg.jpeg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      height: 100vh;
+  }
+
+  .hero-content{
+      padding: 30vh;
+  }
+
+  .hero-content > h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight: 600;
+  }
+
+  /* Second Container */
+
+  
+
+  /* Utlities */
+
+  .container{
+    padding: 0 12vh;
+    width: 100%;
+  }
+
+  .btn{
+      border:none;
+      border-radius: 50px;
+      padding: 10px 20px;
+      background-color: #0078BE;
+      color: #fff;
+  }
